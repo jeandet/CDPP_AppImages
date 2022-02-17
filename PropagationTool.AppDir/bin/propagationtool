@@ -1,0 +1,8 @@
+#!/bin/sh
+SELF=$(readlink -f "$0")
+HERE=${SELF%/*}
+javaws -wait -verbose ${HERE}/PropagationTool.jnlp
+sleep 2
+while ps -aux | grep "java" | grep "$HERE" ; do
+  sleep 2
+done
