@@ -13,6 +13,6 @@ for APP in PropagationTool 3DView
 do 
 	cp -r jre1.8.0_321 ./${APP}.AppDir/
 	mkdir -p ./${APP}.AppDir/lib
-	cp -r /usr/lib64/libnsl.so.1 ./${APP}.AppDir/lib/
+	cp -r /usr/lib64/libnsl* ./${APP}.AppDir/lib/
         ./squashfs-root/AppRun ./${APP}.AppDir
 done
