@@ -68,7 +68,7 @@
 <jar href="jogl/gluegen-s.jar" part="jogl" download="eager"/>
 <jar href="jogl/gluegen-rt-s.jar" part="jogl" download="eager"/>
 <jar href="jogl/jogl-all-s.jar" part="jogl" download="eager"/>
-<j2se version="1.8+" max-heap-size="800m" java-vm-args="-XX:+IgnoreUnrecognizedVMOptions --add-modules=java.xml.ws --add-exports=java.base/java.lang=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.desktop/sun.java2d=ALL-UNNAMED --add-exports=java.base/com.sun=ALL-UNNAMED --add-exports=java.ws/com.sun=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xerces.internal.dom=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED"/>
+<j2se version="1.8+" max-heap-size="4000m" java-vm-args="-XX:+IgnoreUnrecognizedVMOptions --add-modules=java.xml.ws --add-exports=java.base/java.lang=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.desktop/sun.java2d=ALL-UNNAMED --add-exports=java.base/com.sun=ALL-UNNAMED --add-exports=java.ws/com.sun=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xerces.internal.dom=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED -Djdk.tls.client.protocols=TLSv1.3,TLSv1.2 -Dhttps.protocols=TLSv1.3,TLSv1.2"/>
 <property name="jnlp.sun.java2d.noddraw" value="true"/>
 <property name="jnlp.sun.java2d.d3d" value="false"/>
 <property name="jnlp.sun.java2d.opengl" value="false"/>
