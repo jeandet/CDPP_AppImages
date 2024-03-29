@@ -1,7 +1,7 @@
 <jnlp spec="6.0+" codebase="http://3dview.irap.omp.eu:80/client3d/" version="1.11">
 <information>
 <title>3DView CDPP 3dview.irap.omp.eu</title>
-<vendor>GFI Toulouse for IRAP</vendor>
+<vendor>Inetum Toulouse for IRAP</vendor>
 <icon href="http://3dview.irap.omp.eu:80/images/ipx_3dv_48.png" width="48" height="48"/>
 <icon kind="shortcut" href="http://3dview.irap.omp.eu:80/images/ipx_3dv_48.png" width="48" height="48"/>
 <icon kind="shortcut" href="http://3dview.irap.omp.eu:80/images/ipx_3dv_32.png" width="32" height="32"/>
@@ -30,6 +30,28 @@
 <jar href="vecmath-s.jar" part="sgp4" download="eager"/>
 <jar href="sgp4-s.jar" part="sgp4" download="eager"/>
 <jar href="cdasWebServices-client-s.jar" part="cdaweb" download="eager"/>
+<jar href="cdasWebServices-clientRest-1.0-s.jar" part="cdaweb" download="eager"/>
+<jar href="jaxrs-ri-2.25.1-s/api/javax.ws.rs-api-2.0.1-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/aopalliance-repackaged-2.5.0-b32-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/hk2-api-2.5.0-b32-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/hk2-locator-2.5.0-b32-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/hk2-utils-2.5.0-b32-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/javassist-3.20.0-GA-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/javax.annotation-api-1.2-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/javax.inject-2.5.0-b32-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/javax.servlet-api-3.0.1-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/jaxb-api-2.2.7-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/jersey-guava-2.25.1-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/org.osgi.core-4.2.0-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/osgi-resource-locator-1.0.1-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/persistence-api-1.0-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/ext/validation-api-1.1.0.Final-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/lib/jersey-client-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/lib/jersey-common-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/lib/jersey-container-servlet-core-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/lib/jersey-container-servlet-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/lib/jersey-media-jaxb-s.jar" part="cdaweb" download="lazy"/>
+<jar href="jaxrs-ri-2.25.1-s/lib/jersey-server-s.jar" part="cdaweb" download="lazy"/>
 <jar href="jaxrpc-impl-s.jar" part="cdaweb" download="eager"/>
 <jar href="jaxrpc-spi-s.jar" part="cdaweb" download="eager"/>
 <jar href="jaxrpc-api-s.jar" part="cdaweb" download="eager"/>
